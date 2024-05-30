@@ -1,0 +1,50 @@
+For Test case 1 : Will return true 
+
+vector<int> k1 = {10, 12, 14, 8, 6, 5, 7, 9, 10, 12, 14};
+int p1 = 15, a1 = 4, b1 = 4;
+
+Circle 1: Current Power: 15, Enemy Power: 10, Skips Left: 4, Recharges Left: 4
+
+Circle 2: Current Power: 5, Enemy Power: 12, Skips Left: 4, Recharges Left: 4
+Skipping enemy at Circle 2
+
+Circle 3: Current Power: 5, Enemy Power: 14, Skips Left: 3, Recharges Left: 4
+Skipping enemy at Circle 3
+
+Circle 4: Current Power: 5, Enemy Power: 15, Skips Left: 2, Recharges Left: 4
+Skipping enemy at Circle 4
+
+Circle 5: Current Power: 5, Enemy Power: 6, Skips Left: 1, Recharges Left: 4
+Skipping enemy at Circle 5
+
+Circle 6: Current Power: 5, Enemy Power: 5, Skips Left: 0, Recharges Left: 4
+
+Circle 7: Current Power: 0, Enemy Power: 7, Skips Left: 0, Recharges Left: 4
+Recharging, new Current Power: 15, Recharges Left: 3
+
+Circle 8: Current Power: 8, Enemy Power: 12, Skips Left: 0, Recharges Left: 3
+Recharging, new Current Power: 23, Recharges Left: 2
+
+Circle 9: Current Power: 11, Enemy Power: 10, Skips Left: 0, Recharges Left: 2
+
+Circle 10: Current Power: 1, Enemy Power: 12, Skips Left: 0, Recharges Left: 2
+Recharging, new Current Power: 16, Recharges Left: 1
+
+Circle 11: Current Power: 4, Enemy Power: 14, Skips Left: 0, Recharges Left: 1
+Recharging, new Current Power: 19, Recharges Left: 0
+
+
+
+ For Test Case 2 : 
+
+ vector<int> k2 = {20, 15, 14, 13, 12, 11, 19, 18, 17, 16, 15};
+ int p2 = 10, a2 = 1, b2 = 1;
+
+ Circle 1: Current Power: 10, Enemy Power: 20, Skips Left: 1, Recharges Left: 1
+Skipping enemy at Circle 1
+
+Circle 2: Current Power: 10, Enemy Power: 15, Skips Left: 0, Recharges Left: 1
+Recharging, new Current Power: 20, Recharges Left: 0
+
+Circle 3: Current Power: 5, Enemy Power: 14, Skips Left: 0, Recharges Left: 0
+No skips or recharges left, failed at Circle 3
